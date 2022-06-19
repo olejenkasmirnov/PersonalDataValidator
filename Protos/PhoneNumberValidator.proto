@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+import "Messages/PhoneNumberMessage.proto";
+import "google/protobuf/timestamp.proto";
+
+
+option csharp_namespace = "Validation";
+
+package Validator;
+
+service PhoneNumberValidator {
+  rpc Validate (PhoneNumberValidationRequests) returns (PhoneNumberValidationReplies);
+}

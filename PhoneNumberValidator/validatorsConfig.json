@@ -1,0 +1,33 @@
+{
+  "NSPValidator" :
+  {
+    "HostName" : "localhost",
+    "QueueName" : "NSPValidatorQueue",
+    "AllowedPort" : "*"
+  },
+  "AddressValidator" :
+  {
+    "HostName" : "localhost",
+    "QueueName" : "AddressValidatorQueue",
+    "AllowedPort" : "*"
+  },
+  "BirthDayValidator" :
+  {
+    "HostName" : "localhost",
+    "QueueName" : "BirthDayValidatorQueue",
+    "AllowedPort" : "*"
+  },
+  "EmailValidator" :
+  {
+    "HostName" : "localhost",
+    "QueueName" : "EmailValidatorQueue",
+    "AllowedPort" : "*"
+  },
+  "PhoneNumberValidator" :
+  {
+    "HostName" : "localhost",
+    "QueueName" : "PhoneNumberValidatorQueue",
+    "AllowedPort" : "*",
+    "gRPC Address" : "http://localhost:5078"
+  }
+}
